@@ -1,0 +1,46 @@
+1-   How do I create a hidden file or folder?
+
+Answer:
+
+Firtsly you create (for example "personal informations" named) a file or folder in your Downloads folder
+by writing; mkdir personal informations
+
+
+and then if you want to hidden this folder you write "chflags hidden ... "
+after chflags hidden instead of ...  you add the name of the folder;
+for example " chflags hidden /Users/shhs/Downloads/personal
+
+- How do I display it in the CLI?
+
+Answer:
+
+Then if you want display the folder again just copy the same command with up arrow key
+
+then only change hidden as nohidden;
+chflags nohidden /Users/shhs/Downloads/personal
+
+
+2- How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+Answer;
+
+For example you want to create 6 new nested folders in this personal informations folder like these/folders/are/just/for/fun
+
+You write  “mkdir -p these/folders/are/just/for/fun “
+
+
+3-How do I append a message to a file, without a newline character, so the output would be:
+
+		first message
+		second message
+
+Firstly you create a file, for example if you are in downloads folder;
+You write “ touch note “
+
+Then you add  “first message “ words with below command
+
+echo “ first message second message “ >> note.txt
+
+And then
+
+echo “ second message “ >> note.txt
