@@ -2,13 +2,13 @@
 
 Answer:
 
-Firtsly you create (for example "personal informations" named) a file or folder in your Downloads folder
+Firtsly you create (for example "personal_informations" named) a file or folder in your Downloads folder
 by writing; mkdir personal informations
 
 
 and then if you want to hidden this folder you write "chflags hidden ... "
 after chflags hidden instead of ...  you add the name of the folder;
-for example " chflags hidden /Users/shhs/Downloads/personal
+for example " chflags hidden /Users/shhs/Downloads/personal_informations
 
 - How do I display it in the CLI?
 
@@ -17,7 +17,7 @@ Answer:
 Then if you want display the folder again just copy the same command with up arrow key
 
 then only change hidden as nohidden;
-chflags nohidden /Users/shhs/Downloads/personal
+chflags nohidden /Users/shhs/Downloads/personal_informations
 
 
 2- How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
