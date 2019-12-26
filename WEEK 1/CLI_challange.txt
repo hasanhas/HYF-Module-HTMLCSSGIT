@@ -39,7 +39,7 @@ You write “ touch note “
 
 Then you add  “first message “ words with below command
 
-echo “ first message second message “ >> note.txt
+echo “ first message “ >> note.txt
 
 And then
 
